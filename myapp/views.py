@@ -4,7 +4,7 @@ from myapp.models import *
 from django.forms.models import model_to_dict
 
 def test(request):
-    return HttpResponse("Hello World")
+    return HttpResponse("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 def search_list(request):
     if 'cName' in request.GET:
         cName = request.GET['cName']
